@@ -1,0 +1,43 @@
+
+.container 
+{
+  padding: 30px;
+  text-align: center;
+}
+
+.form 
+{
+  max-width: 400px;
+  margin: auto;
+}
+
+.form input 
+{
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+.form button 
+{
+  width: 100%;
+  padding: 10px;
+  background: crimson;
+  color: white;
+  border: none;
+}
+
+.card 
+{
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 480px) 
+{
+  .form 
+  {
+    width: 95%;
+  }
+}

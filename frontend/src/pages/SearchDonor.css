@@ -1,0 +1,87 @@
+
+.container 
+{
+  padding: 30px;
+  text-align: center;
+  background: #f5f5f5;
+  min-height: 76vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h2 
+{
+  color: crimson;
+  margin-bottom: 20px;
+}
+
+.container select,
+.container input,
+.container button 
+{
+  width: 300px;
+  max-width: 90%;
+  padding: 10px;
+  margin: 8px auto;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.container button 
+{
+  background: crimson;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container button:hover 
+{
+  background: darkred;
+}
+
+.cards 
+{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  gap: 15px;
+}
+
+.card 
+{
+  width: 320px;
+  max-width: 95%;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.card:hover 
+{
+  transform: translateY(-5px);
+}
+
+.card p 
+{
+  margin: 6px 0;
+}
+
+@media (max-width: 480px) 
+{
+  .container 
+  {
+    padding: 15px;
+  }
+
+  .card 
+  {
+    width: 100%;
+  }
+}

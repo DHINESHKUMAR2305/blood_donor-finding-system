@@ -1,0 +1,100 @@
+
+
+.request-container 
+{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+
+.request-form 
+{
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.request-title 
+{
+  text-align: center;
+  color: crimson;
+  margin-bottom: 20px;
+}
+
+.request-form input,
+.request-form select 
+{
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.request-form input:focus,
+.request-form select:focus 
+{
+  border-color: crimson;
+}
+
+.request-form button 
+{
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: crimson;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.request-form button:hover 
+{
+  background: darkred;
+}
+
+.request-form button:disabled 
+{
+  background: gray;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) 
+{
+  .request-form 
+  {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) 
+{
+  .request-form 
+  {
+    max-width: 100%;
+    padding: 18px;
+  }
+
+  .request-title 
+  {
+    font-size: 20px;
+  }
+
+  .request-form input,
+  .request-form select,
+  .request-form button 
+  {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,51 @@
+.navbar 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: crimson;
+  color: white;
+  padding: 15px 20px;
+}
+
+.navbar h2 
+{
+  margin: 0;
+}
+
+.links 
+{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.links a 
+{
+  color: white;
+  text-decoration: none;
+}
+
+.logout 
+{
+  background: white;
+  color: crimson;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logout:hover 
+{
+  background: #eee;
+}
+
+@media (max-width: 480px) 
+{
+  .navbar 
+  {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
